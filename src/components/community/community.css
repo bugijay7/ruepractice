@@ -1,0 +1,79 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: saddlebrown;
+}
+
+.about-text {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(250, 249, 248);
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.about-text2 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.box {
+    width: 100vw;
+    height: 15vh;
+    background-color: saddlebrown;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nested-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+.row-box {
+    width: 30%; /* Adjusted width for nested divs */
+    height: 90%; /* Adjusted height for nested divs */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%;
+    height: 30%;
+}
+
+.profile-info img {
+    width: 70px; /* Adjust as needed */
+    height: 70px; /* Adjust as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.star-rating {
+    display: flex;
+    align-items: flex-end;
+}
+
+.row-text {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    max-width: 80%;
+}

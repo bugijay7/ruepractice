@@ -1,0 +1,37 @@
+.specials-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(241, 234, 234);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img {
+    height: 70vh;
+    width: 28vw;
+    border-radius: 30px;
+    box-shadow: 7px 3px 7px 3px rgb(233, 106, 16);
+}
+
+.specials-text {
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(233, 106, 16);
+    text-align: center;
+    font-family: var(--font-family);
+    
+}
+.my-button {
+    background-color:  rgb(233, 106, 16); 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+  }
+  

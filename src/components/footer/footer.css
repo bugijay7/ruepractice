@@ -1,0 +1,36 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Changed to flex-start for column alignment */
+    background-color: white;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Ensure column alignment for links */
+    align-items: center;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.footer-link {
+    color: saddlebrown;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.large-link {
+    font-weight: 800;
+    font-size: 2rem; /* Twice the size of the regular links */
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

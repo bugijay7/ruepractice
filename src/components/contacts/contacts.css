@@ -1,0 +1,53 @@
+.contacts-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 25vh;
+}
+.contacts-text {
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(233, 106, 16);
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.contacts-subtext {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(15, 130, 165);
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.subscription-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 10vh;
+}
+
+.email-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: saddlebrown;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #007bff;
+}

@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    scroll-behavior:smooth;
+  }
+  
+  html, body {
+    transition: scroll-behavior 1s ease-in-out;
+  }
